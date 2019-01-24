@@ -139,6 +139,7 @@ services:
       - "--acme.storage=acme.json"        # Stores certificates in the file "acme.storage".
       - "--acme.tlsChallenge=true"        # Uses TLS Challenge.
       - "--acme.onHostRule=true"          # Get cert's domain names from frontend rules.
+      - "--docker"
     labels:
       - "traefik.enable=false"</code></pre></div></div></li><li><p>Step 2: Update the <code>edge</code> service</p><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="bash language-bash">docker-compose up -d edge</code></pre></div></div></li></ul></div></section><section id="reality_check_7" data-background-color="white" data-state="invert"><h2>Reality Check</h2><div class="ulist"><ul><li><p>Wait a few seconds (time to get the certificate from Let&#8217;s Encrypt) and reload the main page:</p></li></ul></div>
 <div class="paragraph"><p><a href="http://traefik-demo.containous.cloud" target="_blank">http://traefik-demo.containous.cloud</a></p></div></section></section>
