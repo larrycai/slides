@@ -10,7 +10,7 @@ Do you believe in a world beyond complex layers of software?
 Then you might want to listen to our story
 because we are just like you,
 and we came up with a practical solution
-that might reunite ops and devs alike for a journey to manageable software.
+that might reunite ops and devs alike for a journey to manageable software..
 
 == How-to Work with this Presentation?
 
